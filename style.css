@@ -4,9 +4,13 @@ body{
 .page{
 	font-family: Helvetica, 'sans-serif';
 	margin-left: 10%;
+	margin-top: 40px;
 }
 header{
 	background-color: #507299;
+	position: fixed;
+	width: 100%;
+	top: 0px;
 }
 footer{
 	background-color: white;
@@ -54,7 +58,7 @@ img{
 	position: fixed;
 	width: 200px;
 	right: 70px;
-	top: 50px;
+	top: 40px;
 }
 .right-side .first, .right-side .second {
 	background-color: white;
